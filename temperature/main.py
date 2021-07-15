@@ -4,7 +4,7 @@ max_temp = 30
 max_date = ''
 
 f = open('seoul.csv')
-data = csv.reader(f)
+data = csv.reader(f)        #pandas 이용시 pd.read_csv('파일명.csv')
 header = next(data)
 
 for row in data:
