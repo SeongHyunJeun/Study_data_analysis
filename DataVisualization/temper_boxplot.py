@@ -16,7 +16,7 @@ f = open('seoul.csv')
 data = csv.reader(f)
 next(data)
 month = [[], [], [], [], [], [], [], [], [], [], [], []]
-month2 = [[], [], [], [], [], [], [], [], [], [], [], []]
+
 
 
 for row in data :
